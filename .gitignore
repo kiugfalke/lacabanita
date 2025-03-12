@@ -1,0 +1,19 @@
+# Ignorar configuración local y archivos sensibles
+wp-config.php
+.env
+.htaccess
+
+# Ignorar carpetas innecesarias
+wp-content/uploads/
+wp-content/cache/
+node_modules/
+vendor/
+
+# Ignorar bases de datos locales
+*.sql
+*.sqlite
+
+# Ignorar archivos temporales
+*.log
+*.bak
+*.tmp
